@@ -12,7 +12,7 @@
   - [It's a Chocolate Feast!](https://github.com/NaviRocker/PeoCodeCP/blob/main/Week1/ItsAChocolateFeast.c)
   - [Grid Traveller](https://github.com/NaviRocker/PeoCodeCP/blob/main/Week1/GridTraveller.c)
   - [Small Big Factorial](https://github.com/NaviRocker/PeoCodeCP/blob/main/Week1/SmallBigFactorial.c)
-  - [Make Oshadha Happy](https://github.com/NaviRocker/PeoCodeCP/blob/main/Week1/MakeOshadaHappy.c)
+  - [Make Oshadha Happy](https://github.com/NaviRocker/PeoCodeCP/blob/main/Week1/MakeOshadhaHappy.c)
   - [UCSC in 'C'](https://github.com/NaviRocker/PeoCodeCP/blob/main/Week1/UCSCinC.c)
   - [Strings](https://github.com/NaviRocker/PeoCodeCP/blob/main/Week1/Strings.c)
   - [Number Line Jumps](https://github.com/NaviRocker/PeoCodeCP/blob/main/Week1/NumberLineJumps.c)
