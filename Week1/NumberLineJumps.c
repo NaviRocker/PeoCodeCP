@@ -1,34 +1,15 @@
-#include <math.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <assert.h>
-#include <limits.h>
-#include <stdbool.h>
+/* 
+Author - Sanduni Aloka
+*/
+#include<stdio.h>
 int main(){
-    int x1,x2,v1,v2; 
-    scanf("%d %d %d %d",&x1,&v1,&x2,&v2);
-    if(x2>x1){
-        if(v2<v1){
-            if((x2-x1)%(v1-v2)==0)
-                printf("YES");
-            else
-                printf("NO");
-        }
-        else
-            printf("NO");
-    }
-    else{
-        if(v1>v2){
-            if((x1-x2)%(v2-v1)==0)
-                printf("YES");
-            else
-                printf("NO");
-        }
-        else if(x1==x2&&v1==v2)
+    int x1, v1, x2, v2, i;
+    scanf("%d %d %d %d", &x1, &v1, &x2, &v2);
+    for(i=0;i<10000;i++){
+        if((x1+v1*i) == (x2+v2*i)){
             printf("YES");
-            else
-            printf("NO");
+            return 0;
+        }
     }
-    return 0;
+    printf("NO");
 }
