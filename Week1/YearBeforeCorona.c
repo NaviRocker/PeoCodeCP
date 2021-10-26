@@ -1,30 +1,20 @@
 /* 
-Author - Sanduni Aloka
+Author - Avishka Induwara
 */
-#include<stdio.h>
-int main(){
-    int year, arr[4], found = 0, i, j, n;
-    scanf("%d", &n);
-    while(found!=1){
+#include <stdio.h>
+int main (){
+    int n,n1,n2,n3,n4;
+    scanf("%d",&n);
+    while(n<=9999){
         n=n+1;
-        year=n;
-        for(i=0;i<4;i++){
-            arr[i]=year%10;
-            year=year/10;    
-        }
-        for(i=0;i<3;i++){
-            for(j=i+1;j<4;j++){
-                if(arr[i]==arr[j]){
-                    found=1;
-                    break;
-                }
-            }
-            if(found==1) break;
-        }
-        if(found==0){
-            printf("%d", n);
-            return 0;
-        }
-        found=0;
+        n1=n%10;
+        n2=(n/10)%10;
+        n3=(n/100)%10;
+        n4=n/1000;
+        if (n1==n2 || n1==n3 || n1==n4 || n2==n3 || n2==n4 ||n3==n4) continue;
+        else
+            printf("%d",n);
+            break;
     }
+    return 0;
 }
